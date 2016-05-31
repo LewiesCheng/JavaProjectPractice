@@ -9,11 +9,12 @@ private Connection connection = null;
 	
 	public Connection getConnect(){
 		
+		
 		try {
 			
-			//加载驱动
+			//录脫脭脴脟媒露炉
 			Class.forName("com.mysql.jdbc.Driver");
-			//得到链接
+			//碌脙碌陆脕麓陆脫
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_information", "root", "liuchengsql");
 		
 		} catch (Exception e) {
